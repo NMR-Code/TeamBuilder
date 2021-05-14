@@ -1,0 +1,27 @@
+{
+  "name": "teambuilder",
+  "version": "1.0.0",
+  "description": "This is a team-building application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"node index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NMR-Code/TeamBuilder.git"
+  },
+  "keywords": [
+    "\"Team\""
+  ],
+  "author": "Nelson Rosado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NMR-Code/TeamBuilder/issues"
+  },
+  "homepage": "https://github.com/NMR-Code/TeamBuilder#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "fs": "0.0.1-security",
+    "inquirer": "^8.0.0"
+  }
+}
