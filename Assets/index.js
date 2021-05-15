@@ -5,17 +5,8 @@ const Intern = require("./lib/Intern");
 const Manager = require("./lib/Manager");
 const chalk = require('chalk');
 
-// Markdown tips
-const startText = chalk.cyanBright(`\n
--------------------------
-        MD Syntax
--------------------------
-Italic: *text*   
-Bold:   **text**  
-Links:  [title](https://www.example.com)
-Image:  ![alt text](example.jpg)
-\n`);
 // Welcome message
+
 const welcome = [{
     type: 'confirm',
     prefix: '\b',
@@ -25,7 +16,7 @@ const welcome = [{
 }, ];
 // Success message
 const generated = chalk.cyanBright(`
-Your team has been built, in union there is strength!
+   Your team has been built, in union there is strength!
 //-------------------------------------------------------// 
 `);
 const employees = [];
