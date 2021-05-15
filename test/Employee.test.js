@@ -1,5 +1,5 @@
 const Employee = require("../lib/Employee");
-
+//Callback functions
 describe("Employee", () => {
     it("Can instantiate Employee instance", () => {
         const e = new Employee();
@@ -7,26 +7,26 @@ describe("Employee", () => {
     });
 
     it("Can set name via constructor", () => {
-        const name = "Alice";
+        const name = "Nelson";
         const e = new Employee(name);
         expect(e.name).toBe(name);
     });
 
     it("Can set id via constructor", () => {
         const testValue = 100;
-        const e = new Employee("Foo", testValue);
+        const e = new Employee("Melo", testValue);
         expect(e.id).toBe(testValue);
     });
 
     it("Can set email via constructor", () => {
         const testValue = "test@test.com";
-        const e = new Employee("Foo", 1, testValue);
+        const e = new Employee("Melo", 1, testValue);
         expect(e.email).toBe(testValue);
     });
 
     describe("getName", () => {
         it("Can get name via getName()", () => {
-            const testValue = "Alice";
+            const testValue = "Nelson";
             const e = new Employee(testValue);
             expect(e.getName()).toBe(testValue);
         });
@@ -35,7 +35,7 @@ describe("Employee", () => {
     describe("getId", () => {
         it("Can get id via getId()", () => {
             const testValue = 100;
-            const e = new Employee("Foo", testValue);
+            const e = new Employee("Melo", testValue);
             expect(e.getId()).toBe(testValue);
         });
     });
@@ -43,7 +43,7 @@ describe("Employee", () => {
     describe("getEmail", () => {
         it("Can get email via getEmail()", () => {
             const testValue = "test@test.com";
-            const e = new Employee("Foo", 1, testValue);
+            const e = new Employee("Melo", 1, testValue);
             expect(e.getEmail()).toBe(testValue);
         });
     });
@@ -51,9 +51,8 @@ describe("Employee", () => {
     describe("getRole", () => {
         it("getRole() should return \"Employee\"", () => {
             const testValue = "Employee";
-            const e = new Employee("Alice", 1, "test@test.com");
+            const e = new Employee("Nelson", 1, "test@test.com");
             expect(e.getRole()).toBe(testValue);
         });
     });
-
 });
