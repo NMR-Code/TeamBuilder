@@ -1,9 +1,8 @@
 # expressTeamBuilder
-![video](demo.gif)
 ## Licensing: [![license](https://img.shields.io/badge/license--blue)](https://shields.io)
     
 ## Table of Contents 
-  (./Assets/sample.png)
+ ![Alt text](./Assets/sample.png)
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -19,14 +18,14 @@ Download directly through GitHub via repository.
 
 ## Usage:
 **Tests** "npm test" **Build Team** "node index.js"
-(./Assets/appscreenshot.png)
+![Alt text](./Assets/appscreenshot.png)
 
 ## Contribution:
 Looking forward to adding a ui interface with a button to add more teams.
 
 ## Testing:
 undefined
-(./Assets/testscreenshot.png)
+![Alt text](./Assets/testscreenshot.png)
 
 ## Additional Info:
 - Github: [NMR-Code](https://github.com/NMR-Code)
