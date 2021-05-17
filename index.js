@@ -11,7 +11,7 @@ const welcome = [{
     type: 'confirm',
     prefix: '\b',
     name: 'welcome',
-    message: chalk.cyanBright(`Thank you for using expressTeam! You will be presented with options for your Team members and their respective details. To begin hit 'Y' or enter.`),
+    message: chalk.cyanBright(`Thank you for using my Team Builder application! You will be presented with options for your Team members and their respective details. To begin hit 'Y' or enter.`),
 
 }, ];
 // Success message
