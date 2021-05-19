@@ -17,16 +17,17 @@ A simple application to help you sort employees into various teams based on role
 Download directly through GitHub via repository.
 
 ## Usage:
-**Tests** "npm test" **Build Team** "node index.js"
+**To build a team** "node index.js"
 ![Alt text](./Assets/appscreenshot.png)
 
 ## Contribution:
 Looking forward to adding a ui interface with a button to add more teams.
 
 ## Testing:
-undefined
+**To test run** "npm test" 
 ![Alt text](./Assets/testscreenshot.png)
 
 ## Additional Info:
 - Github: [NMR-Code](https://github.com/NMR-Code)
 - Email: nelsonog827@gmail.com 
+- LinkedIn: Coming Soon!
