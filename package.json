@@ -4,7 +4,7 @@
     "description": "This is a team-building application.",
     "main": "index.js",
     "scripts": {
-        "test": "jest --verbose test/*"
+        "test": "jest"
     },
     "repository": {
         "type": "git",
