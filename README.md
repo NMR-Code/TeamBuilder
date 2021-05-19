@@ -1,8 +1,8 @@
 # expressTeamBuilder
-## Licensing: [![license](https://img.shields.io/badge/license--blue)](https://shields.io)
+ ![walkthrough](./demo.gif)
+## Licensing: [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
     
 ## Table of Contents 
- ![Alt text](./Assets/sample.png)
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -19,6 +19,7 @@ Download directly through GitHub via repository.
 ## Usage:
 **To build a team** "node index.js"
 ![Alt text](./Assets/appscreenshot.png)
+![Alt text](./Assets/sample.png)
 
 ## Contribution:
 Looking forward to adding a ui interface with a button to add more teams.
