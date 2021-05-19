@@ -189,4 +189,4 @@ function finishHtml() {
     console.log("end");
 }
 //Function call to initialize program
-init();
+initApp();
